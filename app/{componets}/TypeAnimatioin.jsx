@@ -54,7 +54,7 @@ const TypeAnimatioin = () => {
     
     return (
       <div className="">
-        <p className=" text-white p-1 font-bold">{currentSentence}|</p>
+        <p className=" text-teal-200 p-1 font-bold">{currentSentence}|</p>
       </div>
     );
   };
