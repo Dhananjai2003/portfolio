@@ -24,6 +24,7 @@ export default function Home() {
         <div id="about" className="">
           <AboutPage />
         </div>
+        <div className='h-screen'></div>
     </div>
   );
 }

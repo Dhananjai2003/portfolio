@@ -24,6 +24,8 @@ const AboutPage = () => {
       </div>
 
       <Link href='/' className=' resumeBtn p-2 bg-teal-500 font-extrabold mt-4'>Resume</Link>
+
+      
       
     </div>
   )
