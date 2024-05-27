@@ -3,7 +3,6 @@
 import ProfileTile from "@/app/{componets}/ProfileTile"
 import AboutPage from "@/app/{componets}/AboutPage"
 
-
 export default function Home() {
 
   const scrollToDiv = () => {

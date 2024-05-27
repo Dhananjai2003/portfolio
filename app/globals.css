@@ -82,12 +82,12 @@ section {
     #fff 5%,
     #009688 5%
   );
-  text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+  text-shadow: -3px -3px 0px #507c80, 3px 3px 0px #00e6f6;
   clip-path: var(--slice-0);
 }
 
 .resumeBtn:hover::after {
-  animation: 1s glitch;
+  animation: 1s glitch infinite;
   animation-timing-function: steps(2, end);
 }
 
@@ -602,3 +602,46 @@ section {
     font 7s step-end infinite, movement 8s step-end infinite;
 }
 
+@keyframes blink {
+  0% , 15% , 25% , 60% {
+    opacity: 0.5;
+  }
+  
+  30% ,20%,10% , 50% , 75%{
+    opacity: 1;
+    box-shadow: 0 0 5px rgba(35, 211, 241, 0.8), 0 0 10px rgba(0, 255, 255, 0.8);
+  }
+
+}
+
+.hover-blink {
+  transition: color 0.1s, box-shadow 0.1s;
+  opacity: 0.7;
+}
+
+.hover-blink:hover {
+  animation: blink 0.75s ;
+  color: #0ff;
+  opacity: 1;
+  box-shadow: 0 0 5px rgba(35, 211, 241, 0.8), 0 0 10px rgba(0, 255, 255, 0.8);
+}
+
+
+
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    opacity: 1;
+  }
+  20%, 24%, 55% {
+    opacity: 0;
+  }
+}
+
+.flicker-1 {
+  animation: flicker 5s infinite;
+}
+
+.flicker-2 {
+  animation: flicker 5s infinite 0.2s;
+}
