@@ -6,7 +6,7 @@ const ProjectTileEven = (props) => {
 
   const listItems = props.listItems;
   return (
-    <div className=' border-r-2 border-t-2 border-cyan-500 w-9/12 h-fit hover:bg-gray-800'>
+    <div className=' border-r-2 border-b-2 border-cyan-500 w-9/12 h-fit '>
       
         <h4 className='layers p-4 font-extrabold text-3xl text-amber-400 flicker-2'><span>{props.title}</span></h4>
 

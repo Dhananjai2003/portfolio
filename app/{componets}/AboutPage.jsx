@@ -15,7 +15,8 @@ const AboutPage = () => {
     <div className='flex flex-col items-center justify-center text-white'>
       <div className=' w-9/12 pt-10'>
         <h3 className=' text-4xl pb-7 text-teal-500 hero glitch layers font-extrabold'><span>About Me</span></h3>
-        <p className=' text-slate-300 mb-10 text-justify' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veniam ea nostrum! Explicabo enim est impedit, architecto quasi consequuntur delectus, eos laboriosam quos distinctio voluptatem ipsa tempora. Pariatur, magnam vel! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde sequi molestias velit nesciunt saepe tenetur voluptates eius hic quam explicabo cumque in distinctio suscipit molestiae, ab reiciendis eaque excepturi placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quaerat sit sint in, officia cupiditate blanditiis culpa. Unde ea, repellendus distinctio quas aperiam aliquam nemo quod, inventore amet asperiores qui.</p>
+        <p className=' text-slate-300 mb-10 text-justify font-extrabold' >A Computer Science student who posses good leadership, ability in coding and keen on learning new platforms
+and frameworks. Likes to improve and test my skill and is open to new challenges.</p>
       </div>
       <div className="">
 
@@ -69,6 +70,8 @@ tabletop menu tablets." listItems={[]}/>
  "Made all the documents and was in-charge on our team's alignment to the guidelines laid down by Corporate",
  'Industry Relations (CIR)',
  'Made all the documentation.']}/>
+
+      <ProjectTileOdd title="IP Location Tracker" desc="A challenge from frontendmentor.io which is to find the geographic location of a given network IP" listItems={["Front end using NextJS","Map using Leaflet","Location using ip-api "]}></ProjectTileOdd>
 
     </div>
   )

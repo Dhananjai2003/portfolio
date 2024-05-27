@@ -6,13 +6,13 @@ const ProjectTileOdd = (props) => {
   const listItems = props.listItems;
 
   return (
-    <div className=' border-l-2 border-b-1 border-cyan-500 w-9/12 h-fit hover:bg-gray-800'>
+    <div className=' border-l-2 border-b-2 border-cyan-500 w-9/12 h-fit '>
       
         <h4 className='layers p-4 font-extrabold text-3xl text-amber-400'><span className='flicker-1'>{props.title}</span></h4>
 
         <p className='p-4 font-extrabold'>{props.desc}</p>
 
-        <ul>
+        <ul className='pb-2'>
           {listItems.map((items) => (<li className='pl-5'><p> - {items}</p></li>))}
         </ul>
 
