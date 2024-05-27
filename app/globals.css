@@ -144,11 +144,13 @@ section {
   z-index: 2;
   letter-spacing: 10px;
   filter: drop-shadow(0 1px 3px);
+
 }
 
 
 .layers {
   position: relative;
+  filter: drop-shadow(0 1px 3px);
 }
 
 .layers::before,
@@ -644,4 +646,16 @@ section {
 
 .flicker-2 {
   animation: flicker 5s infinite 0.2s;
+}
+
+.flicker-3 {
+  animation: flicker 1.5s infinite 0.4s;
+}
+
+.flicker-4 {
+  animation: flicker 1.5s infinite 0.6s;
+}
+
+.flicker-5 {
+  animation: flicker 1.5s infinite 0.8s;
 }

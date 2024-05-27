@@ -7,6 +7,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faSquareGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import ProjectTileOdd from "@/app/{componets}/ProjectTileOdd"
 import ProjectTileEven from '@/app/{componets}/ProjectTileEven';
+import SkillBadge from "@/app/{componets}/SkillBadge"
 
 
 const AboutPage = () => {
@@ -29,9 +30,31 @@ const AboutPage = () => {
 
 
       <div className=' w-9/12 pt-10'>
-        <h3 className=' text-4xl pb-7 text-teal-500 hero glitch layers font-extrabold'><span>Portfolio</span></h3>
+        <h3 className=' text-4xl pb-7 text-teal-500 hero glitch layers font-extrabold'><span>Skills</span></h3>
       </div>
 
+      <div className='flex content-stretch w-9/12 justify-center'>
+        <SkillBadge flick="flicker-1" skill="Python"></SkillBadge>
+        <SkillBadge flick="flicker-2" skill="Django"></SkillBadge>
+        <SkillBadge flick="flicker-3" skill="NextJS"></SkillBadge>
+        <SkillBadge flick="flicker-4" skill="Frontend Development"></SkillBadge>
+        <SkillBadge flick="flicker-5" skill="Program Management"></SkillBadge>
+        <SkillBadge flick="flicker-1" skill="Backend Devlopment"></SkillBadge>
+        <SkillBadge flick="flicker-2" skill="Postgresql"></SkillBadge>
+        <SkillBadge flick="flicker-3" skill="Mentorship"></SkillBadge>
+
+      </div>
+      <div className='flex content-stretch w-9/12 justify-center'>
+        <SkillBadge flick="flicker-4" skill="Java"></SkillBadge>
+        <SkillBadge flick="flicker-5" skill="C++"></SkillBadge>
+        <SkillBadge flick="flicker-1" skill="Strategic communication"></SkillBadge>
+        <SkillBadge flick="flicker-2" skill="Problem-solving"></SkillBadge>
+        <SkillBadge flick="flicker-3" skill="Selenium"></SkillBadge>
+        <SkillBadge flick="flicker-4" skill="Cyber Security"></SkillBadge>
+        <SkillBadge flick="flicker-1" skill="SQL"></SkillBadge>
+        <SkillBadge flick="flicker-1" skill="Management"></SkillBadge>
+
+      </div>
 
       <div className=' w-9/12 pt-10'>
         <h3 className=' text-4xl pb-7 text-teal-500 hero glitch layers font-extrabold'><span>Portfolio</span></h3>
@@ -39,7 +62,8 @@ const AboutPage = () => {
       
       <ProjectTileOdd title="Applying Project Management in the Real World" desc="A small restaurant chain called Sauce and Spoon wants to meet their annual growth and expansion goals. As one
 way to meet these goals, they have decided to launch a pilot project to test out the impact of installing new
-tabletop menu tablets." />
+tabletop menu tablets." listItems={[]}/>
+
       <ProjectTileEven title="Comuntity Outreach Program" desc="Aimed to document on the mental health of front line fire safety personnel." listItems={["Pitched and convinced the idea to the SSR board .","Negotiated on many aspects and guide lines of the project .",'Convinced the Kerala fire and safety authorities to obtain permission for the project.',
  'Lead the team through most of the stages of the project life cycle',
  "Made all the documents and was in-charge on our team's alignment to the guidelines laid down by Corporate",
