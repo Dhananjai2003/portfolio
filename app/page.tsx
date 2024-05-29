@@ -1,7 +1,6 @@
-"use client"
-
 import ProfileTile from "@/app/{componets}/ProfileTile"
 import AboutPage from "@/app/{componets}/AboutPage"
+import Footer from "@/app/{componets}/Footer"
 
 export default function Home() {
 
@@ -9,15 +8,6 @@ export default function Home() {
 
   return (
     <div className="">
-        < div className="head flex justify-center items-center w-screen h-screen">
-          <div className="background z-1 box-border w-full h-full fixed">
-          </div>
-          <ProfileTile></ProfileTile>
-        </div>
-        <div id="about" className="">
-          <AboutPage />
-        </div>
-        
     </div>
   );
 }

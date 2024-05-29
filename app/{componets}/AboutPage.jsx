@@ -1,13 +1,9 @@
 import React from 'react'
-import EmailIcon from "@/public/email.svg"
-import Image from 'next/image'
 import Link from 'next/link'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faSquareGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import ProjectTileOdd from "@/app/{componets}/ProjectTileOdd"
 import ProjectTileEven from '@/app/{componets}/ProjectTileEven';
 import SkillBadge from "@/app/{componets}/SkillBadge"
+import LinkIcons from "@/app/{componets}/LinkIcons"
 
 
 const AboutPage = () => {
@@ -21,11 +17,9 @@ and frameworks. Likes to improve and test my skill and is open to new challenges
       <div className="">
 
       </div>
-      <div className='flex  text-teal-200 font-extrabold text-3xl hero glitch layers'> 
-        <span><Link href='/' className='p-2 hover:text-teal-500 '><FontAwesomeIcon icon={faEnvelope} /></Link></span>
-        <span><Link href='/' className='p-2 hover:text-teal-500'><FontAwesomeIcon icon={faSquareGithub} /></Link></span>
-        <span><Link href='/' className='p-2 hover:text-teal-500'><FontAwesomeIcon icon={faLinkedinIn} /></Link></span>
-      </div>
+    
+
+      <LinkIcons />
 
       <Link href='/' className=' resumeBtn p-2 bg-teal-500 font-extrabold mt-4'>Resume</Link>
 
@@ -60,18 +54,26 @@ and frameworks. Likes to improve and test my skill and is open to new challenges
       <div className=' w-9/12 pt-10'>
         <h3 className=' text-4xl pb-7 text-teal-500 hero glitch layers font-extrabold'><span>Portfolio</span></h3>
       </div>
-      
-      <ProjectTileOdd title="Applying Project Management in the Real World" desc="A small restaurant chain called Sauce and Spoon wants to meet their annual growth and expansion goals. As one
-way to meet these goals, they have decided to launch a pilot project to test out the impact of installing new
-tabletop menu tablets." listItems={[]}/>
 
-      <ProjectTileEven title="Comuntity Outreach Program" desc="Aimed to document on the mental health of front line fire safety personnel." listItems={["Pitched and convinced the idea to the SSR board .","Negotiated on many aspects and guide lines of the project .",'Convinced the Kerala fire and safety authorities to obtain permission for the project.',
+      <ProjectTileOdd title="Team bi0s" desc="Was a Researcher / CTF player for an year learning the releam of cyber security" listItems={["Represented the team in DomeCTF and secured Third place","Mentored 75% of junior researchers","Managed and developed solutions to CTF contest for the category by researching solution and problems"]} />
+
+      <ProjectTileEven title="Team bi0s Recuitment 2023" desc="This was to recurit new generation of reserchers into our orgnization for the year 2023" listItems={["Co - Managed entire recruitment drive for the hiring of new researchers","Lead the marketing","laid down guidelines for the the selection of candidates and had a key role in hiring process",'Lead the team for public demo for cryptanalysis']}/> 
+
+      <ProjectTileOdd title="Team bi0s Recuitment 2022" desc="This was to recurit new generation of reserchers into our orgnization for the year 2022" listItems={["Interviewed potential candidate and was involved in hiring","Made recruitment challenges","Lectured on cryptanalysis on familiarization lectures","Managed demo for the category"]} />
+
+      <ProjectTileEven title="IP Location Tracker" desc="A challenge from frontendmentor.io which is to find the geographic location of a given network IP" listItems={["Front end using NextJS","Map using Leaflet","Location using ip-api "]} />
+
+      <ProjectTileOdd title="Comuntity Outreach Program" desc="Aimed to document on the mental health of front line fire safety personnel." listItems={["Pitched and convinced the idea to the SSR board .","Negotiated on many aspects and guide lines of the project .",'Convinced the Kerala fire and safety authorities to obtain permission for the project.',
  'Lead the team through most of the stages of the project life cycle',
  "Made all the documents and was in-charge on our team's alignment to the guidelines laid down by Corporate",
  'Industry Relations (CIR)',
  'Made all the documentation.']}/>
 
-      <ProjectTileOdd title="IP Location Tracker" desc="A challenge from frontendmentor.io which is to find the geographic location of a given network IP" listItems={["Front end using NextJS","Map using Leaflet","Location using ip-api "]}></ProjectTileOdd>
+      <ProjectTileEven title="Applying Project Management in the Real World" desc="A small restaurant chain called Sauce and Spoon wants to meet their annual growth and expansion goals. As one
+way to meet these goals, they have decided to launch a pilot project to test out the impact of installing new
+tabletop menu tablets." listItems={[]}/>
+
+
 
     </div>
   )

@@ -3,9 +3,13 @@ import React from 'react'
 import { useEffect, useState } from 'react';
 
 const sentences = [
-    "This is the first sentence.",
-    "Here comes the second sentence.",
-    "And finally, the third sentence."
+    "Welcome",
+    "ようこそ",
+    "ಸ್ವಾಗತಾರ್ಹ",
+    " 환영 ",
+    "வரவேற்பு",
+    "добро пожаловать",
+    "välkommen"
   ];
 
 const TypeAnimatioin = () => {
@@ -15,22 +19,6 @@ const TypeAnimatioin = () => {
   
     useEffect(() => {
       const typeNextCharacter = () => {
-        // if (currentCharacterIndex < sentences[currentSentenceIndex].length) {
-        //   setCurrentSentence(prev => prev + sentences[currentSentenceIndex].charAt(currentCharacterIndex));
-        //   setCurrentCharacterIndex(prev => prev + 1);
-        //   setTimeout(typeNextCharacter, 500);       
-        // } 
-        
-        
-        // else {
-        //   setTimeout(() => {
-        //     setCurrentSentence('');
-        //     setCurrentCharacterIndex(0);
-        //     setCurrentSentenceIndex(prev => (prev + 1) % sentences.length);
-        //   }, 10000); 
-        // }
-
-        
             
             if (currentCharacterIndex < sentences[currentSentenceIndex].length){
                 setCurrentSentence(prev => prev + sentences[currentSentenceIndex].charAt(currentCharacterIndex));
@@ -47,7 +35,7 @@ const TypeAnimatioin = () => {
         
 
       };
-      const interval = setInterval(typeNextCharacter,100)
+      const interval = setInterval(typeNextCharacter,250)
       return () => clearInterval(interval);
   
     }, [currentSentenceIndex, currentCharacterIndex]);
