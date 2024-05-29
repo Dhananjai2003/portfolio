@@ -21,7 +21,7 @@ and frameworks. Likes to improve and test my skill and is open to new challenges
 
       <LinkIcons />
 
-      <Link href='/Resume' className=' resumeBtn p-2 bg-teal-500 font-extrabold mt-4'>Resume</Link>
+      <Link href='/Popup' className=' resumeBtn p-2 bg-teal-500 font-extrabold mt-4'>Resume</Link>
 
 
       <div className=' w-9/12 pt-10'>
@@ -55,25 +55,23 @@ and frameworks. Likes to improve and test my skill and is open to new challenges
         <h3 className=' text-4xl pb-7 text-teal-500 hero glitch layers font-extrabold'><span>Portfolio</span></h3>
       </div>
 
-      <ProjectTileOdd title="Team bi0s" desc="Was a Researcher / CTF player for an year learning the releam of cyber security" listItems={["Represented the team in DomeCTF and secured Third place","Mentored 75% of junior researchers","Managed and developed solutions to CTF contest for the category by researching solution and problems"]} />
+      <ProjectTileOdd link="/" title="Team bi0s" desc="Was a Researcher / CTF player for an year learning the releam of cyber security" listItems={["Represented the team in DomeCTF and secured Third place","Mentored 75% of junior researchers","Managed and developed solutions to CTF contest for the category by researching solution and problems"]} />
 
-      <ProjectTileEven title="Team bi0s Recuitment 2023" desc="This was to recurit new generation of reserchers into our orgnization for the year 2023" listItems={["Co - Managed entire recruitment drive for the hiring of new researchers","Lead the marketing","laid down guidelines for the the selection of candidates and had a key role in hiring process",'Lead the team for public demo for cryptanalysis']}/> 
+      <ProjectTileEven link="/" title="Team bi0s Recuitment 2023" desc="This was to recurit new generation of reserchers into our orgnization for the year 2023" listItems={["Co - Managed entire recruitment drive for the hiring of new researchers","Lead the marketing","laid down guidelines for the the selection of candidates and had a key role in hiring process",'Lead the team for public demo for cryptanalysis']}/> 
 
-      <ProjectTileOdd title="Team bi0s Recuitment 2022" desc="This was to recurit new generation of reserchers into our orgnization for the year 2022" listItems={["Interviewed potential candidate and was involved in hiring","Made recruitment challenges","Lectured on cryptanalysis on familiarization lectures","Managed demo for the category"]} />
+      <ProjectTileOdd link="/" title="Team bi0s Recuitment 2022" desc="This was to recurit new generation of reserchers into our orgnization for the year 2022" listItems={["Interviewed potential candidate and was involved in hiring","Made recruitment challenges","Lectured on cryptanalysis on familiarization lectures","Managed demo for the category"]} />
 
-      <ProjectTileEven title="IP Location Tracker" desc="A challenge from frontendmentor.io which is to find the geographic location of a given network IP" listItems={["Front end using NextJS","Map using Leaflet","Location using ip-api "]} />
+      <ProjectTileEven link="https://github.com/Dhananjai2003/IP-tracker-nextjs-tailwind" title="IP Location Tracker" desc="A challenge from frontendmentor.io which is to find the geographic location of a given network IP" listItems={["Front end using NextJS","Map using Leaflet","Location using ip-api "]} />
 
-      <ProjectTileOdd title="Comuntity Outreach Program" desc="Aimed to document on the mental health of front line fire safety personnel." listItems={["Pitched and convinced the idea to the SSR board .","Negotiated on many aspects and guide lines of the project .",'Convinced the Kerala fire and safety authorities to obtain permission for the project.',
+      <ProjectTileOdd link="/" title="Comuntity Outreach Program" desc="Aimed to document on the mental health of front line fire safety personnel." listItems={["Pitched and convinced the idea to the SSR board .","Negotiated on many aspects and guide lines of the project .",'Convinced the Kerala fire and safety authorities to obtain permission for the project.',
  'Lead the team through most of the stages of the project life cycle',
  "Made all the documents and was in-charge on our team's alignment to the guidelines laid down by Corporate",
  'Industry Relations (CIR)',
  'Made all the documentation.']}/>
 
-      <ProjectTileEven title="Applying Project Management in the Real World" desc="A small restaurant chain called Sauce and Spoon wants to meet their annual growth and expansion goals. As one
+      <ProjectTileEven link="/" title="Applying Project Management in the Real World" desc="A small restaurant chain called Sauce and Spoon wants to meet their annual growth and expansion goals. As one
 way to meet these goals, they have decided to launch a pilot project to test out the impact of installing new
 tabletop menu tablets." listItems={[]}/>
-
-
 
     </div>
   )

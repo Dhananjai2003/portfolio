@@ -17,7 +17,7 @@ const ProjectTileOdd = (props) => {
         </ul>
 
         <div className='p-3'>
-        <Link href='/' className=' hover-blink p-2 bg-teal-500 font-extrabold mt-4'>Link</Link>
+        <Link href={props.link} className=' hover-blink p-2 bg-teal-500 font-extrabold mt-4'>Link</Link>
         </div>
     </div>
   )
