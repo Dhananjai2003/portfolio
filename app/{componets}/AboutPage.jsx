@@ -21,7 +21,7 @@ and frameworks. Likes to improve and test my skill and is open to new challenges
 
       <LinkIcons />
 
-      <Link href='/' className=' resumeBtn p-2 bg-teal-500 font-extrabold mt-4'>Resume</Link>
+      <Link href='/Resume' className=' resumeBtn p-2 bg-teal-500 font-extrabold mt-4'>Resume</Link>
 
 
       <div className=' w-9/12 pt-10'>
