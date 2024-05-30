@@ -9,9 +9,9 @@ import Link from 'next/link';
 const LinkIcons = () => {
   return (
       <div className='flex text-teal-200 font-extrabold text-3xl hero glitch layers'> 
-        <span><Link href='/' className='p-2 hover:text-teal-500 '><FontAwesomeIcon icon={faEnvelope} /></Link></span>
-        <span><Link href='/' className='p-2 hover:text-teal-500'><FontAwesomeIcon icon={faSquareGithub} /></Link></span>
-        <span><Link href='/' className='p-2 hover:text-teal-500'><FontAwesomeIcon icon={faLinkedinIn} /></Link></span>
+        <span><Link href='https://mail.google.com/mail/?view=cm&to=dhananjaimurali30@gmail.com&su=SUBJECT&body=BODY.coms'className='p-2 hover:text-teal-500 '><FontAwesomeIcon icon={faEnvelope} /></Link></span>
+        <span><Link href='https://github.com/Dhananjai2003' className='p-2 hover:text-teal-500'><FontAwesomeIcon icon={faSquareGithub} /></Link></span>
+        <span><Link href='https://www.linkedin.com/in/dhananjai-murali/' className='p-2 hover:text-teal-500'><FontAwesomeIcon icon={faLinkedinIn} /></Link></span>
       </div>
   )
 }

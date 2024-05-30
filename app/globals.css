@@ -660,3 +660,53 @@ section {
   animation: flicker 5s infinite 4s;
 }
 
+
+
+.cyberpunk-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0d0d0d;
+  color: #0ff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.loader-text {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  position: relative;
+  overflow: hidden;
+  height: 2rem;
+  line-height: 2rem;
+}
+
+
+
+
+.loader-bar {
+  width: 100%;
+  max-width: 300px;
+  height: 10px;
+  background-color: #333;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #0ff;
+}
+
+.bar {
+  width: 50%;
+  height: 100%;
+  background-color: #0ff;
+  animation: cyberpunk-bar 1.5s infinite;
+}
+
+@keyframes cyberpunk-bar {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(100%);
+  }
+}
