@@ -12,8 +12,10 @@ const ProjectTileOdd = (props) => {
 
         <p className='p-4 font-extrabold'>{props.desc}</p>
 
+
+      
         <ul className='pb-2'>
-          {listItems.map((items) => (<li className='pl-5'><p> - {items}</p></li>))}
+          {listItems.map((items) => ( items!="" && <li className='pl-5'><p> - {items}</p></li>))}
         </ul>
 
         <div className='p-3'>
